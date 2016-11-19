@@ -1,5 +1,5 @@
 {
-  "name": "express-graphiql",
+  "name": "express-graphiql-toolbox",
   "version": "0.0.1",
   "description": "Standalone (GraphQL toolbox version) GraphiQL middleware for express",
   "main": "index.js",
