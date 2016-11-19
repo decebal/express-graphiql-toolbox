@@ -1,0 +1,36 @@
+{
+  "name": "express-graphiql",
+  "version": "0.0.1",
+  "description": "Standalone (GraphQL toolbox version) GraphiQL middleware for express",
+  "main": "index.js",
+  "author": {
+    "email": "edesbalazs@gmail.com",
+    "name": "Balazs Edes"
+  },
+  "files": [
+    "index.js",
+    "graphiql.template.html",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthiers/express-graphiql.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "graphiql",
+    "graphql",
+    "graphql-toolbox"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/healthiers/express-graphiql/issues"
+  },
+  "homepage": "https://github.com/healthiers/express-graphiql#readme",
+  "dependencies": {
+    "lodash.isfunction": "^3.0.8",
+    "lodash.isobject": "^3.0.2",
+    "lodash.template": "^4.4.0"
+  }
+}
