@@ -29,8 +29,6 @@
   },
   "homepage": "https://github.com/healthiers/express-graphiql#readme",
   "dependencies": {
-    "lodash.isfunction": "^3.0.8",
-    "lodash.isobject": "^3.0.2",
-    "lodash.template": "^4.4.0"
+    "lodash": "^4.17.2"
   }
 }

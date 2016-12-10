@@ -1,6 +1,5 @@
-var isObject = require("lodash.isobject");
-var isFunction = require("lodash.isfunction");
-var template = require("lodash.template");
+var isObject = require("lodash/isObject");
+var template = require("lodash/template");
 var fs = require("fs");
 var path = require("path");
 
@@ -25,9 +24,6 @@ function createMiddleware(config) {
   return function graphiqlMiddleware(request, response, next) {
     response.status(200);
     response.send(html);
-    if (isFunction(next)) {
-      next();
-    }
   }
 }
 
